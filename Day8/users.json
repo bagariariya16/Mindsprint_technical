@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "address": "123 Main St"
+    },
+    {
+      "id": "1740053456255",
+      "name": "Riya Bagaria",
+      "email": "riya.bagaria@mindsprint.com",
+      "address": "Kolkata"
+    }
+  ]
+}
