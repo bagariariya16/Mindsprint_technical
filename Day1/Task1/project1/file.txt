@@ -1,0 +1,22 @@
+Sprint 1: User Authentication
+Objective:
+Implement a secure user authentication system for students and court management staff.
+
+Success Criteria:
+Users can register and log in securely.
+Role-based access is implemented (students, court staff, admin).
+Sessions are managed with JWT or a similar method.
+Error handling and validation are in place.
+Task Distribution:
+Member 1: Backend Development
+Set up authentication routes (register, login, logout).
+Implement JWT-based authentication.
+Store user credentials securely using bcrypt/salted hashing.
+Member 2: Frontend Development
+Design and implement a login and signup form using React/Tailwind.
+Connect frontend with backend authentication APIs.
+Implement user feedback (error messages, success notifications).
+Member 3: Testing & Documentation
+Write test cases for authentication (unit and integration tests).
+Document API endpoints and authentication flow.
+Conduct security testing to prevent vulnerabilities (SQL injection, XSS).
