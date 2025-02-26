@@ -8,27 +8,27 @@ public class SampleTest2 {
         System.out.println("Before All Test Cases");
     }
 
-    @AfterAll
-    public static void afterAll(){
-        System.out.println("After All Test Cases");
-    }
-
-    @BeforeEach
+    @BeforeEach // --> before every test case it runs
     public void setUp(){
         System.out.println("DB Connected");
     }
-    @AfterEach
+    @AfterEach // // --> after every test case it runs
     public void tearDown(){
-
-        System.out.println("DB dis-Connected");
+        System.out.println("DB Disconnected");
     }
+
     @Test
     public void myTest1(){
-
-        System.out.println("Test 1 Executed ");
+        System.out.println("Test 1 Executed");
     }
     @Test
     public void myTest2(){
         System.out.println("Test 2 Executed");
     }
+
+    @AfterAll
+    public static void afterAll(){
+        System.out.println("After All Test Cases");
+    }
+
 }

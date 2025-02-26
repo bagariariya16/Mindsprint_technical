@@ -6,13 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomerDaoImpl implements CustomerDAO{
-
     private List<Customer> list = null;
     public CustomerDaoImpl(){
         list = new ArrayList<>();
-        list.add(new Customer(1,"Alex","US"));
-        list.add(new Customer(2,"Bob","UK"));
-        list.add(new Customer(3,"Catty","India"));
+        list.add(new Customer(1,"Paras", "India"));
+        list.add(new Customer(2,"Adity", "USA"));
+        list.add(new Customer(3,"Pragya", "Canada"));
+
     }
     @Override
     public Customer addNewCustomer(Customer customer) {
@@ -21,7 +21,7 @@ public class CustomerDaoImpl implements CustomerDAO{
     }
 
     @Override
-    public Customer getCustomer(int id) {
+    public Customer getCustomer() {
         return null;
     }
 

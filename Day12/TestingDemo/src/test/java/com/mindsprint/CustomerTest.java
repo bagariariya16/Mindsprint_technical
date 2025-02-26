@@ -21,14 +21,13 @@ public class CustomerTest {
 
     @Test
     public void addCustomer(){
-        Customer result = service.addNewCustomer(new Customer(1,"Riya","India"));
-        Assertions.assertEquals("Riya",result.getName());
-
+        Customer result = service.addNewCustomer(new Customer(4, "Pawan", "India"));
+        Assertions.assertEquals("Pawan", result.getName());
     }
 
     @Test
     public void getAll(){
         List<Customer> list = service.getAllCustomers();
-        Assertions.assertEquals(3,list.size());
+        Assertions.assertEquals(3, list.size());
     }
 }
